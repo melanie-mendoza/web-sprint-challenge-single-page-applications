@@ -113,7 +113,7 @@ const PizzaForm = () => {
     return (
         <form onSubmit={formSubmit}>
             <p  className="intake-header">
-                Let's get you started! <br/>SCROLL DOWN to make your PIZZA!.
+                Let's get started! 
             </p>
             <div className='form-style'>
                 <label htmlFor='name' className='nameText'>
@@ -187,7 +187,7 @@ const PizzaForm = () => {
                 </label>
               </p>
               <label htmlFor='instructions' className='instructionsTextArea'>
-                    Tell us more. Please provide special instructions.
+                    Please provide special instructions.
                 <textarea
                     name='instructions'
                     id='instructions'

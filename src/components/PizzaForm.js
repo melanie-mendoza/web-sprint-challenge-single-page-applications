@@ -123,7 +123,8 @@ const PizzaForm = () => {
                     name="name" 
                     id="name" 
                     value={formState.name}
-                    onChange={inputChange}  
+                    onChange={inputChange} 
+                    data-cy="name"
                 />
                 </label>
                 {errorState.name.length > 0 ? (
